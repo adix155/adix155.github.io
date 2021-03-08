@@ -1,0 +1,61 @@
+body 
+{
+font-family: Calibri;
+background-color: silver;
+text-align: left;
+font-size: 20px;
+}
+
+table
+{
+background-color: gray;
+font-family: Arial;
+font-size: 15px;
+text-align: justify;
+}
+
+table td 
+{
+padding: 10px;
+text-align: justify;
+}
+
+h1
+{
+font-family: Helvetica;
+font-weight: bold;
+text-align: center;
+color: Green;
+font-size: 35px;
+}
+
+h2
+{
+font-family: Times New Roman;
+font-weight: bold;
+color: Red;
+font-size: 30px;
+}
+
+h3
+{
+font-family: Arial;
+font-weight: bold;
+color: Blue;
+text-align: center;
+font-size: 25px;
+}
+
+p
+{
+font-family: Technic;
+text-align: right;
+font-size: 22px;
+}
+
+img
+{
+border-style: solid;
+border-width: thick; 
+}
+
