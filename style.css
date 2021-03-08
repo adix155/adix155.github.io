@@ -31,7 +31,7 @@ font-size: 35px;
 
 h2
 {
-font-family: Times New Roman;
+font-family: Helvetica;
 font-weight: bold;
 color: Red;
 font-size: 30px;
@@ -57,5 +57,14 @@ img
 {
 border-style: solid;
 border-width: thick; 
+}
+
+ul 
+{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
 }
 
