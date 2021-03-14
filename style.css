@@ -1,79 +1,82 @@
 body 
 {
 font-family: Calibri;
-background-color: silver;
-text-align: left;
-font-size: 20px;
+    background-color: silver;
+    text-align: left;
+    font-size: 20px;
 }
 
 table
 {
-background-color: gray;
-font-family: Arial;
-font-size: 15px;
-text-align: justify;
+    background-color: gray;
+    font-family: Arial;
+    font-size: 15px;
+    text-align: justify;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 table td 
 {
-padding: 10px;
-text-align: center;
+    padding: 10px;
+    text-align: center;
 }
 
 h1
 {
-font-family: Helvetica;
-font-weight: bold;
-text-align: center;
-color: gray;
-font-size: 35px;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-align: center;
+    color: gray;
+    font-size: 35px;
 }
 
 h2
 {
-font-family: Helvetica;
-font-weight: bold;
-color: Red;
-font-size: 30px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: Red;
+    font-size: 30px;
 }
 
 h3
 {
-font-family: Arial;
-font-weight: bold;
-color: Blue;
-text-align: center;
-font-size: 25px;
+    font-family: Arial;
+    font-weight: bold;
+    color: Blue;
+    text-align: center;
+    font-size: 25px;
 }
 
 p
 {
-font-family: Calibri;
-font-size: 22px;
+    font-family: Calibri;
+    font-size: 22px;
 }
 
 img
 {
-border-style: solid;
-border-width: thick; 
+    border-style: solid;
+    border-width: thick;
 }
 
 ul 
 {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
 li a 
 {
-display: block;
-color: white;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 div
