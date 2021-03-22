@@ -3,13 +3,12 @@ var FirstPlayerTurn=true;
 var FirstPlayerSign = 'x';
 var SecondPlayerSign='o';
 var count = 0;
-var blocked = false;
+var blocked = true;
 
 var board = [["","",""],["","",""],["","",""]];
 
 function onload()
 {
-    document.getElementById("gamediv").style.display = "none";
     document.getElementById("result").style.display = "none";
     document.getElementById("resetGame").style.display = "none";
 }
@@ -34,7 +33,7 @@ function start()
 
 
     document.getElementById("startdiv").style.display = "none";
-    document.getElementById("gamediv").style.display = "block";
+    blocked = false;
     document.getElementById("result").style.display = "block";
     actualSign = FirstPlayerSign;
     document.getElementById("result").style.color = "black";
