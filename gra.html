@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="Stylesheet" href="style.css" type="text/css">
+    <meta charset="UTF-8">
+    <title>Gra</title>
+    <style>
+        table
+        {
+            width: 50px;
+            alignment: center;
+        }
+
+        tr
+        {
+            height: 50px;
+        }
+    </style>
+</head>
+<body onload="onload()">
+<div>
+    <h1>Gra w kółko i krzyżyk</h1>
+</div>
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="galeria.html">Galeria</a></li>
+    <li><a href="artykuly.html">Artykuły</a></li>
+    <li><a href="gra.html">Gra w kółko i krzyżyk</a></li>
+</ul>
+<br>
+<h3>Gra w kółko i krzyżyk</h3>
+<div id="startdiv">
+    <form>
+        <label>Podaj liczbę uczestników</label><br>
+        <input type="radio" id="single" name="players" value="single">Jedna osoba</input>
+        <input type="radio" id="double" name="players" value="double">Dwie osoby</input>
+        <br>
+        <label>Wybierz znak pierwszego gracza</label><br>
+        <input type="radio" id="O" name="sign" value="O">O</input>
+        <input type="radio" id="X" name="sign" value="X">X</input>
+        <br>
+        <button type="button" onclick="start()">Rozpocznij grę</button>
+    </form>
+
+</div>
+<div id="gamediv">
+    <table>
+        <tr>
+            <td id="gameField0" onclick="executeMove(0,0)"><img src="empty.png" alt=""></td>
+            <td id="gameField1" onclick="executeMove(0,1)"><img src="empty.png" alt=""></td>
+            <td id="gameField2" onclick="executeMove(0,2)"><img src="empty.png" alt=""></td>
+        </tr>
+        <tr>
+            <td id="gameField3" onclick="executeMove(1,0)"><img src="empty.png" alt=""></td>
+            <td id="gameField4" onclick="executeMove(1,1)"><img src="empty.png" alt=""></td>
+            <td id="gameField5" onclick="executeMove(1,2)"><img src="empty.png" alt=""></td>
+        </tr>
+        <tr>
+            <td id="gameField6" onclick="executeMove(2,0)"><img src="empty.png" alt=""></td>
+            <td id="gameField7" onclick="executeMove(2,1)"><img src="empty.png" alt=""></td>
+            <td id="gameField8" onclick="executeMove(2,2)"><img src="empty.png" alt=""></td>
+        </tr>
+    </table>
+</div>
+<br>
+<div id="result"></div>
+<div id="resetGame">
+    <form>
+        <input type="submit" value="Reset">
+    </form>
+</div>
+<script type="text/javascript" src="kolkoikrzyzyk.js"></script>
+<br>
+<div>© Adrian Szczerba</div>
+</body>
+</html>
